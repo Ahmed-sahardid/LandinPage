@@ -3,7 +3,34 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-const jobTitles = ['Developer', 'Designer', 'Leader', 'Analyst', 'Engineer'];
+const jobTitles = [
+	'Developer', 
+	'Designer', 
+	'Leader', 
+	'Analyst', 
+	'Engineer', 
+	'Software Engineer', 
+	'Data Scientist', 
+	'Systems Architect', 
+	'Database Administrator', 
+	'Network Engineer', 
+	'IT Consultant', 
+	'Cybersecurity Specialist', 
+	'Cloud Engineer', 
+	'DevOps Engineer', 
+	'AI/ML Engineer', 
+	'UX/UI Designer', 
+	'Quality Assurance Tester', 
+	'IT Project Manager', 
+	'Front-end Developer', 
+	'Back-end Developer', 
+	'Full Stack Developer', 
+	'IT Support Specialist', 
+	'Mobile App Developer', 
+	'Blockchain Developer', 
+	'Technical Writer'
+  ];
+  
 let currentTitleIndex = 0;
 
 function updateJobTitle() {
